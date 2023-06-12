@@ -1,5 +1,2 @@
 #!/bin/bash
-(
-  mkdir my_dir
-  chmod 751 my_dir
-)
+echo -e "mkdir my_dir\nchmod 751 my_dir" | bash
