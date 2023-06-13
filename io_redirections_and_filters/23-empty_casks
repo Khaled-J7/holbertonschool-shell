@@ -1,2 +1,1 @@
-#!/bin/bash
-find . -empty -printf "%P\n"
+find . -type d -empty -exec printf "%f\n" {} + | grep -v '^.$' && find . -type f -empty -exec printf "%f\n" {} +
