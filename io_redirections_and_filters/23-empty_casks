@@ -1,1 +1,2 @@
-find . -type d -empty -exec printf "%f\n" {} + | grep -v '^.$' && find . -type f -empty -exec printf "%f\n" {} +
+#!/bin/bash
+find .-empty | rev | cut -d '/' -f 1 | rev
