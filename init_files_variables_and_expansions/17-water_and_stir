@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%s" "$((0x${WATER} + 0x${STIR}))"
+WATER=$((WATER + STIR)) | echo "$WATER"
