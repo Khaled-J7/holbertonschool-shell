@@ -1,2 +1,2 @@
 #!/bin/bash
-WATER=$((WATER + STIR))  echo "$WATER"
+echo "$((10#${WATER} + 10#${STIR}))" | tr '0-9' 'bestchol'
